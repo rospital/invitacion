@@ -1,0 +1,117 @@
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: 'Dancing Script', cursive;
+  color:#6f6e6c;
+}
+
+h2{
+
+  font-size: 3rem;
+  margin: 0;
+  line-height: 107px;
+}
+.logo{
+  width: 800px;
+  text-align: center;
+  display: inline-block;
+  padding-top: 30px;
+}
+
+.logo img{
+}
+
+.c1 {
+  top: 50px;
+  left: 50px;
+
+  width: 800px;
+  height: 558px;
+  /*border: 1px dotted rgb(143, 142, 142);*/
+  position:absolute;
+
+
+  transition: transform .5s ease-out;
+  -webkit-transition: -webkit-transform .3s ease-out;
+  transform: translate(0,0);
+  -webkit-transform: translate(0,0);
+
+
+  cursor: pointer;
+
+  z-index: 1;
+}
+
+.open {
+  transform: translate(-810px, 0);
+  -webkit-transform: translate(-810px, 0);
+}
+
+.c2 {
+  top: 50px;
+  left: 50px;
+
+
+  background-image: url('../imgs/interior3.jpg');
+  width: 800px;
+  height: 558px;
+  position: absolute;
+
+  box-shadow: 2px 2px 5px #999;
+
+}
+
+.tapa_1, .tapa_2, .tapa_medio{
+  width: 800px;
+}
+.tapa_2, .base_2{
+  height: 256px;
+}
+.tapa_1, .base_1{
+  height: 186px;
+}
+.tapa_medio{
+  height: 107px;
+}
+
+
+.base_medio{
+  width: 800px;
+  height: 107px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.base_2 p{
+  font-size: 1.6em;
+  text-align: center;
+  padding: 0 40px;
+  margin: .4em;
+}
+
+.footer{
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  margin-top: 25px;
+  padding: 0 20px;
+}
+.col1, .col3 {
+  width: 45%;
+  font-size: .6 rem;
+}
+
+span{
+ color: rgb(156, 102, 47)
+}
+.col2 {
+  width: 10%;
+}
+.col1{
+  text-align: left;
+}
+.col3{
+  text-align: right;
+}
